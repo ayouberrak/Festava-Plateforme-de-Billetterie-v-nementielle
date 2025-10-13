@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navBar{
+    display: flex;
+}
+.lien{
+    display: flex;
+}
+.lien li{
+    position: relative;
+    top: 30px;
+    left: 550px;
+    margin-right: 30px;
+    list-style-type: none;
+}
+.navv{
+    left: 40px;
+}
+
+.logo img{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 150px;
+    left: 10px;
+}
+.lien a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    position: absolute;
+    top: 0%; left: 0%;
+    background-image: url('../image/bg2.png'), url('../image/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -99;
+}
+
+.hero-div{
+    display: flex;
+}
+.des{
+    position: relative;
+    top: 150px;
+    right: 30px;
+}
