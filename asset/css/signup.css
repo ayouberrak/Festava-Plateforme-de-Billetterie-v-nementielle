@@ -1,41 +1,184 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
     font-family: "Proxima Nova", sans-serif;
 }
+
 body{
     overflow-x: hidden;
 }
 
+.login-section{    
+    background-image: url('../image/back-login.jpg');
+    width: 1300px;
+    height: 850px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-section img{
+    width: 300px;
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.login-section div{
+    padding: 40px;
+    position: relative;
+    margin-top: 2%;
+    left: 300px;
+    top: 38px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.83);
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+.login-section div:hover{
+    transform: translateY(-6px);
+}
+.login-section div div{
+    display: flex;
+    background-color: transparent;
+}
+.login-section div div input {
+    font-size:15px ;
+    font-weight: bold;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.596);
+    position: relative;
+    right: 340px;
+}
+
+.login-section div div input::placeholder{
+    color: black;
+    position: relative;
+    bottom: 15px;
+    font-weight: normal;
+}
+.login-section div h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: blod;
+    color: white;
+    margin-bottom: -22px;
+}
+
+.login-section div label{
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+
+.login-section div input{
+    font-size:15px ;
+    font-weight: bold;
+    border: none;
+    padding-top: 8px;
+    padding-left: 15px;
+    width: 435px;
+    height: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.596);
+}
+
+
+.login-section div #button1{
+position: relative;
+    bottom: -12px;
+    right: 195px;
+    margin-top: 20px;
+    background-color: #5600ced4;
+    height: 60px;
+    width: 89%;
+    border: none;
+    margin-left: 230px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-section div span{
+    position: relative;
+    bottom: -25px;
+    font-size: 13px;
+    margin-left: 130px;
+    color: white;
+}
+
+.login-section div span a{
+    font-size: 14px;
+    color: white;
+}
+
+#button2{
+    position: relative;
+    background-color: transparent;
+    height: 60px;
+    width: 80%;
+    border: none;
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#button2 img{
+    position: absolute;
+    bottom: 4%;
+    right: 9%;
+    width: 55px;
+    height: 55px;
+}
+
+#button2 p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
 
 
 
 footer{
     font-family:'DM Sans', sans-serif ;
     position: relative;
-    top: 600px;
+    top: 10%;
     background-color: #0A075F;
     height: 400px;
-    width: 100%;
+    width: 1300px;
 }
+
 footer .section-footer{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4,auto);
     padding-top: 40px;
-    padding-left: 50px;
+    padding-left: 30px;
 }
+
 footer .section-footer img{
     height: 35;
     width: 140px;
 }
+
 footer .section-footer .icon-footer img{
     height: 36px;
     width: 36px;
 }
+
 footer .section-footer div{
     gap: 10px;
 }
+
 footer .section-footer p , footer .section-footer a{
     font-weight:100px;
     font-size: 14px;
@@ -43,6 +186,7 @@ footer .section-footer p , footer .section-footer a{
       line-height: 2.4; 
       margin-top: 20px;
 }
+
 .section-footer input{
     margin-top: 25px;
     width: 364px;
@@ -50,14 +194,17 @@ footer .section-footer p , footer .section-footer a{
     border-radius: 50px;
     border: none;
 }
+
 .section-footer input::placeholder{
     font-size: 12px;
     padding-left: 20px;
 }
+
 .section-footer input:focus{
     outline: none;
     border: none;
 }
+
 .section-footer button{
     position: relative;
     bottom: 53px;
@@ -68,12 +215,14 @@ footer .section-footer p , footer .section-footer a{
     background-color: #F5167E;
     border: none;
 }
+
 hr{
     margin-left: 100px;
     width: 80%;
     position: relative;
     top: 60px;
 }
+
 footer .Copyright p{
     position: relative;
     top: 80px;

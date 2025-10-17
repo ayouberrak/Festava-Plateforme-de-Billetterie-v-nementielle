@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +42,7 @@ a{
     transition: all 0.4s;
 }
 a:hover{
-    color: rgb(139, 139, 139);
+    color: rgba(0, 0, 0, 0.751);
 }
 .navBar button{
     font-size: 15px;
@@ -54,7 +57,10 @@ a:hover{
     transition: all 0.4s;
 }
 .navBar button:hover{
-    background-color: rgba(114, 34, 183, 0.527);
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.navBar button a:hover{
+    color: white;
 }
 .logo{
     width: 550px; 
@@ -91,6 +97,10 @@ a:hover{
     position: relative;
     top: 95px;
     left: 400px;
+    transition: all 0.5s;
+}
+.hero-div img:hover{
+    transform: scale(1.1);
 }
 .des{
     position: absolute;
@@ -140,6 +150,11 @@ a:hover{
     border: 1px solid rgb(249, 249, 249);
     font-size: 15px;
     font-weight: bold;
+    transition: all 0.3s;
+}
+.des div a button:hover{
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.63);
 }
 
 .menu-section{
@@ -234,6 +249,11 @@ a:hover{
     box-shadow: 1px 1px 10px rgba(220, 220, 220, 0.689);
     width: 343px;
     height: 334px;
+    transition: all 0.4s;
+}
+.events-section .events-card .card:hover{
+    transform: translateY(-8px);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.496);
 }
 .events-section .events-card #card4{
     grid-column: 1/3;
@@ -285,8 +305,12 @@ a:hover{
     position: relative;
     left: 550px;
     top: 770px;
+    transition: all 0.3s;
 }
-
+.events-section button:hover{
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.554);
+}
 
 
 

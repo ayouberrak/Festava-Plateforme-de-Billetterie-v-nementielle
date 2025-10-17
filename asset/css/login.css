@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -28,6 +31,10 @@ body{
     width: 450px;
     background-color: rgba(0, 0, 0, 0.83);
     border-radius: 20px;
+    transition: all 0.5s;
+}
+.login-section div:hover{
+    transform: translateY(-5px);
 }
 .login-section div h2{
     text-align: center;
@@ -41,6 +48,7 @@ body{
     top: 25px;
     left: 40px;
 }
+
 .login-section div input{
     font-size:15px ;
     font-weight: bold;
@@ -67,6 +75,7 @@ body{
     font-size:20px ;
     font-weight: bold;
 }
+
 .login-section div .a-forgot{
     position: relative;
     top: 10px;

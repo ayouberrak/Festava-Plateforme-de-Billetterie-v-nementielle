@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +42,7 @@ a{
     transition: all 0.4s;
 }
 a:hover{
-    color: rgb(139, 139, 139);
+    color: rgba(0, 0, 0, 0.649);
 }
 .navBar button{
     font-size: 15px;
@@ -54,7 +57,10 @@ a:hover{
     transition: all 0.4s;
 }
 .navBar button:hover{
-    background-color: rgba(114, 34, 183, 0.527);
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.navBar button a:hover{
+    color: white;
 }
 .logo{
     width: 550px; 
@@ -91,8 +97,11 @@ a:hover{
 .hero-div img{
     position: relative;
     right: 100px;
+    transition: all 0.4s;
 }
-
+.hero-div img:hover{
+    transform: scale(1.1);
+}
 .des h1{
     color: white;
     font-size: 40px;
@@ -122,6 +131,11 @@ a:hover{
     border: 1px solid rgb(249, 249, 249);
     font-size: 15px;
     font-weight: bold;
+    transition: all 0.3s;
+}
+.des div a button:hover{
+    transform: translateY(-4px);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.53);
 }
 .image-section {
     border-radius:25px ;
@@ -130,6 +144,7 @@ a:hover{
     background-color: #242565;
     width: 850px;
     height: 120px;
+    transition: all 0.4s;
 }
 .image-section img{
     position: relative;
@@ -137,6 +152,10 @@ a:hover{
     left: 160px;
     width: 500px;
     height: 260px;
+}
+.image-section:hover{
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.53);   
 }
 
 
@@ -191,8 +210,12 @@ a:hover{
     height: 60px;
     border-radius: 50px;
     border: 2px solid #3D37F1;
+    transition: all 0.3s;
 }
-
+.blog-section button:hover{
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.486);
+}
 
 
 
